@@ -19,10 +19,34 @@
     align-items: center;
 }
 
+.cardBody:hover{ 
+    background-color: rgb(95, 30, 156);
+}
 
-@media(max-width: 800px) {
+.animation{
+    animation-name: colorChange;
+  animation-duration: rgb(123, 39, 202)
+}
+
+@keyframes colorChange {
+    from {color: rgb(138, 43, 226);}
+    to {color: rgb(0, 0, 0);}
+}
+
+
+
+@media(max-width: 1000px) {
+    .cardBody{
+        font-size: 1.2em;
+        max-width: 35vw;
+        max-height: 20vh;
+    }
+  }
+
+  @media(max-width: 1800px) and (min-width:1025px) {
     .cardBody{
         font-size: 1.4em;
-        max-width: 45vw;
+        max-width: 25vw;
+        
     }
   }
