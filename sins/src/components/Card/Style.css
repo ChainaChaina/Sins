@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300');
+
+
+.cardBody{
+    font-size: 3em;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    flex-wrap: wrap;
+    min-height: 30vh ;
+    max-width: 20vw;
+    background-color: rgb(138, 43, 226);
+    /* box-shadow: -0.5em 0.5em  rgb(3, 29, 51); */
+    border-radius: 0.8rem;
+    padding: 2em;
+    margin: 0rem 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media(max-width: 800px) {
+    .cardBody{
+        font-size: 1.4em;
+        max-width: 45vw;
+    }
+  }
