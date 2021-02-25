@@ -5,8 +5,10 @@ import Title from './components/Title/Index'
 function App() {
   return (
     <div className="App">
-      <Title/>
-     <Card></Card>
+      <Title />
+
+      <Card ></Card>
+
     </div>
   );
 }
